@@ -6,10 +6,10 @@
   "author": "Motoi Okuzono <motoi.okuzono+github@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "./node_modules/.bin/next",
-    "build": "./node_modules/.bin/next build",
-    "start": "./node_modules/.bin/next start",
-    "lint": "./node_modules/.bin/eslint pages/**"
+    "dev": "./node_modules/.bin/next src",
+    "build": "./node_modules/.bin/next build src",
+    "start": "./node_modules/.bin/next start src",
+    "lint": "./node_modules/.bin/eslint src/**"
   },
   "devDependencies": {
     "@types/next": "^8.0.1",
